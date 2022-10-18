@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Gaming Estate</title>
+
+	<link rel = "stylesheet" type = "text/css" href = "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<meta charset = "utf-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1">
+	
+	<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	
+	<link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel = "stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+	
+	<link rel="shortcut icon" href="New/ge-icon.ico">
+
+	<link rel = "stylesheet" type = "text/css" href = "main-style.css">
+
+</head>
+
+<body>
+	
+	<!-- HEADER -->
+	
+	<div id = "header-div" class = "div1">
+		<img src = "New/logoGE.jpg">
+		<input type = "text" placeholder = "Search">
+	</div>     
+
+	<!-- NAVIGATION BAR -->
+
+	<div class = "navbar" id = "menudropdown">
+	
+		<p>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </p>
+		<a href = "main-index.html">Home</a>
+		<a href = "#maindivslider">Review</a>
+		<a href = "articles.html" target = "_blank">Articles</a>
+		<a href = "contact.html">Contact</a>
+		<a href = "#latest-games">Visit Games</a>
+
+		<a href = "https://www.facebook.com/" class = "fa fa-facebook"></a>
+		<a href = "https://twitter.com/?lang=en" class = "fa fa-twitter"></a>
+		<a href = "https://in.linkedin.com/" class = "fa fa-linkedin"></a>
+		<a href = "https://in.pinterest.com/" class = "fa fa-pinterest"></a>
+		<a href = "https://www.youtube.com/" class = "fa fa-youtube"></a>
+		<a href = "https://www.instagram.com/" class = "fa fa-instagram"></a>
+
+
+	</div>
+	
+	<!-- IMAGE SLIDER -->
+    
+	<div id = "maindivslider">
+	
+		<input type = "radio" id = "s-1" name = "slider-control" checked = "checked">
+		<input type = "radio" id = "s-2" name = "slider-control">
+		<input type = "radio" id = "s-3" name = "slider-control">
+		<input type = "radio" id = "s-4" name = "slider-control">
+		
+		<div class = "js-slider">
+		
+		  <figure class = "js-slider_item img-1">
+			<div class = "js-slider_img" style = "margin-top: 10px">
+			  <img class = "c-img-h-full" src = "New/reactor1.JPG" alt = "">
+			</div>
+			<figcaption class = "wo-caption">
+			  <h3 class = "wo-h3">
+				<br class = "view-sm mb-s">REACTOR</h3>
+			  <ul class = "wo-credit">
+				<li>Platforms: X360, PS4, PC, XONE</li>
+				<li>Ratings: 9.0/10</li>
+				<li>Initial release date: March
+				  <span class = "c-txt-s">21, 20XX</span></li>
+			  </ul>
+			</figcaption>
+		  </figure>
+		  
+		  <figure class = "js-slider_item img-2">
+			<div class = "js-slider_img" style = "margin-top: 10px">
+			  <img class = "c-img-h-full" src = "New/race7.png" alt = ""></div>
+			<figcaption class = "wo-caption">
+			  <h3 class = "wo-h3">CAR RACING</h3>
+			  <ul class = "wo-credit">
+				<li>Platforms: X360, PS4, PC, XONE</li>
+				<li>Ratings: 9.1/10</li>
+				<li>Initial release date: May 19, 20XX</li></ul>
+			</figcaption>
+		  </figure>
+		  
+		  <figure class = "js-slider_item img-3">
+			<div class = "js-slider_img" style = "margin-top: 10px">
+			  <img class = "c-img-h-full" src = "New/whackamole1.jpg" alt = ""></div>
+			<figcaption class = "wo-caption">
+			  <h3 class = "wo-h3">WHACK A MOLE</h3>
+			  <ul class = "wo-credit">
+				<li>Platforms: PS4, XONE, MAC</li>
+				<li>Ratings: 9.0/10</li>
+				<li>Initial release date: Jan 11, 20XX</li></ul>
+			</figcaption>
+		  </figure>
+		  
+		  <figure class = "js-slider_item img-4">
+			<div class = "js-slider_img" style = "margin-top: 10px">
+			  <img class = "c-img-h-full" src = "New/mario2.JPG" alt = ""></div>
+			<figcaption class = "wo-caption">
+			  <h3 class = "wo-h3">MARIO</h3>
+			  <ul class = "wo-credit">
+				<li>Platforms: PS4, XONE, PS3, X360</li>
+				<li>Ratings: 9.1/10</li>
+				<li>Initial release date: Feb 7, 20XX</li></ul>
+			</figcaption>
+		  </figure>
+		  
+		  <div class = "js-slider_nav">
+			<label class = "js-slider_nav_item s-nav-1 prev" for = "s-4"></label>
+			<label class = "js-slider_nav_item s-nav-1 next" for = "s-2"></label>
+			<label class = "js-slider_nav_item s-nav-2 prev" for = "s-1"></label>
+			<label class = "js-slider_nav_item s-nav-2 next" for = "s-3"></label>
+			<label class = "js-slider_nav_item s-nav-3 prev" for = "s-2"></label>
+			<label class = "js-slider_nav_item s-nav-3 next" for = "s-4"></label>
+			<label class = "js-slider_nav_item s-nav-4 prev" for = "s-3"></label>
+			<label class = "js-slider_nav_item s-nav-4 next" for = "s-1"></label>
+		  </div>
+		  
+		  <div class = "js-slider_indicator">
+			<div class = "js-slider-indi indi-1"></div>
+			<div class = "js-slider-indi indi-2"></div>
+			<div class = "js-slider-indi indi-3"></div>
+			<div class = "js-slider-indi indi-4"></div>
+		  </div>
+		  
+		</div>
+		
+	</div>
+	
+
+	<div id = "maindivslider2">
+		<div id = "tabs">
+			<ul id = "accordion">
+				<li>
+				  <a class = "active" href = "#tabs-1">   <div class = "tag">
+					  <div class = "icon">
+						<div class = "block">
+						  <div class = "circle"></div>
+						</div>
+					  </div>
+					  <span class = "title">Reactor</span>
+					</div>
+				  </a>
+					<div class = "addon fadein">
+					  <span>
+						Reactor is a task in which the pattern displayed on the right side must be memorized and matched with the sequence entered on the left.
+					  </span>
+					  <a class = "para-a" href = "#">Learn More</a>
+					</div>
+				</li>
+				<li>
+				  <a href = "#tabs-2">   <div class = "tag">
+					  <div class = "icon">
+						<div class = "block">
+						  <div class = "circle"></div>
+						</div>
+					  </div>
+					  <span class="title">Car Racing</span>
+					</div>
+				  </a>
+					<div class = "addon">
+					  <span>
+						The player's goal is to get to the destination while trying to avoid bumping into other obstacles in the way. The final score will be posted according to the finishing position.
+					  </span>
+					  <a class = "para-a" href = "#">Learn More</a>
+					</div>
+				</li>
+				<li>
+				  <a href = "#tabs-3">   <div class = "tag">
+					  <div class = "icon">
+						<div class = "block">
+						  <div class = "circle"></div>
+						</div>
+					  </div>
+					  <span class = "title">Whack A Mole</span>
+					</div>
+				  </a>
+					<div class = "addon">
+					  <span>
+						The player must hit the mole as it pops out of a hole before it hides and repeats the same. They must hit as many moles as possible before the timer runs out.
+					  </span>
+					  <a class = "para-a" href = "#">Learn More</a>
+					</div>
+				</li>
+				<li>
+				  <a href = "#tabs-4">   <div class = "tag">
+					  <div class = "icon">
+						<div class = "block">
+						  <div class = "circle"></div>
+						</div>
+					  </div>
+					  <span class = "title">Mario</span>
+					</div>
+				  </a>
+					<div class = "addon">
+					  <span>
+						Mario jumps, runs, and walks across each level. The worlds are full of enemies and platforms, and open holes. The player must clear each level to progress.
+					  </span>
+					  <a class = "para-a" href = "#">Learn More</a>
+					</div>
+				</li>
+			</ul>
+		  <div class = "browser">
+			<div class = "top-bar">
+			  <div class = "dot"></div>
+			  <div class = "dot"></div>
+			  <div class = "dot"></div>
+			</div>
+			<div id = "tabs-1"></div>
+			<div id = "tabs-2"></div>
+			<div id = "tabs-3"></div>
+			<div id = "tabs-4"></div>
+		  </div>
+		</div>
+	</div> 
+ 
+
+	<hr style = "height: 2px; width: 79%; border-width: 0; color: gray; background-color: gray">
+	
+	<!-- VIEW GAME -->
+ 
+	<main id = "view-game">
+		<div class = "div1" style = "margin-top: 50px" class = "animated bounceInLeft">
+			<img src = "New/game1.JPG" style = "margin-left: 0px" >
+			<img src = "New/game2.JPG" style = "margin-left: 200px">
+			<img src = "New/game3.JPG" style = "margin-left: 190px">
+
+			<div style = "margin-top: 20px; margin-bottom: 50px;">
+				<a href = "#latest-games"><button id = "viewgame-btn1">View Games</button></a>
+				<a href = "#latest-games"><button id = "viewgame-btn2">View Games</button></a>
+				<a href = "#latest-games"><button id = "viewgame-btn3">View Games</button></a>
+			</div>
+		</div>
+	</main>
+	
+	<hr style = "height: 2px; width: 79%; border-width: 0; color: gray; background-color: gray">
+	
+	<!-- MAIN GAMES -->
+	
+	<div id = "latest-games">
+
+		<h2 id = "lg-header">This Month's Pick</h2>
+	  
+		<div id = "lg-buttons">
+			<p>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </p>
+			<a href = "#lg-games" id = "lg-popular">Popular</a>
+			<a href = "#lg-games" id = "lg-latest">Latest</a>
+			<a href = "#lg-games" id = "lg-pick">Editor's Pick</a>
+		</div>
+		
+		<hr style = "height:2px; width: 100%; border-width:0;color:gray;background-color:lightgray">
+	
+	
+		<div id = "lg-games" class = "row">
+		  
+			<div class = "column">
+			  <div class = "content">
+				<a href = "../src/reactor-game/index.html" target = "_blank"><img src = "New/reactor3.png"><a/>
+				<h3 class = "heading-game"><a href = "../src/reactor-game/index.html" target = "_blank">Reactor</a></h3>
+			  </div>
+			</div>
+			
+			<div class = "column">
+			  <div class = "content">
+				<a href = "../src/car-racing-game/index.html" target = "_blank"><img src = "New/race7.png"></a>
+				<h3 class = "heading-game"><a href = "../src/car-racing-game/index.html" target = "_blank">Car Racing</a></h3>
+			  </div>
+			</div>
+			
+			<div class = "column">
+			  <div class = "content">
+				<a href = "../src/whack-a-mole-game/htmlpart.html" target = "_blank"><img src = "New/whackamole1.jpg"></a>
+				<h3 class = "heading-game"><a href = "../src/whack-a-mole-game/htmlpart.html" target = "_blank">Whack A Mole</a></h3>
+			  </div>
+			</div>
+			
+			<div class = "column">
+			  <div class = "content">
+				<a href = "../src/mario-game/index.html" target = "_blank"><img src = "New/mario3.png"></a>
+				<h3 class = "heading-game"><a href = "../src/mario-game/index.html" target = "_blank">Mario</a></h3>
+			  </div>
+			</div>
+
+		</div>
+  
+	</div>
+
+	<!-- FOOTER -->
+
+	<div id = "footer2">
+
+		<footer class = "footer_fmain">
+
+			<div class = "footer-left">
+			
+				<h3>Gaming Estate</h3>
+				
+				<p class = "footer-links">
+				
+					<a href = "#">More Games</a>
+				·
+					<a href = "#">Contact Us</a>
+				·
+					<a href = "#">Cookies, privacy and terms</a>
+				·
+					<a href = "#">Privacy Center</a>
+				·
+					<a href = "#">Accessibility</a>
+				·
+					<a href = "#">Sitemap</a>
+
+				</p>
+
+			  <p class = "footer-company-name">Gaming Estate &copy; 2021</p>
+			  
+			</div>
+
+			<div class = "footer-center">
+
+				<div>
+					<i class = "fa fa-map-marker"></i>
+					<p><span>Chitkara University</span> Rajpura, Punjab</p>
+				</div>
+
+				<div>
+					<i class = "fa fa-phone"></i>
+					<p>+91 9876XXXXXX</p>
+				</div>
+
+				<div>
+					<i class = "fa fa-envelope"></i>
+					<p><a href="#">gamingestate@gmail.com</a></p>
+				</div>
+
+			</div>
+
+			<div class = "footer-right">
+
+				<p class = "footer-company-about">
+				<span>About the website</span>
+					GE is your source for latest video games, exclusive reviews, demos, updates and news on all your PC gaming franchises.
+				</p>
+
+			</div>
+
+		</footer>
+	
+	</div>
+	  
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+
+	<script src = "main-script.js"></script>
+
+</body>
+</html>
