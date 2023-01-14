@@ -1,5 +1,5 @@
 # Gaming website
-This project is a front-end application of a gaming website using HTML, CSS and JavaScript.
+This project is a front-end application of an interactive gaming website using HTML, CSS and JavaScript. It allows users to play multiple high-performance games on the same platform.
 
 # Project Preview
 
